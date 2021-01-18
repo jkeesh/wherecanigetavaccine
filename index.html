@@ -5,26 +5,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style type="text/css">
-    table.state-table {
-    }
-    .state-table td {
-    }
-    .state-table th {
-
-    }
-    #container{
-        width: 80%;
-        margin: auto;
-    }
-    h1{
-        padding-top: 50px;
-    }
-    table{
-        margin-top: 20px;
-    }
+<style>
+#container{
+    width: 80%;
+    margin: auto;
+}
 </style>
 
 </head>
@@ -36,132 +24,8 @@
 
     <h2>Compiling information on covid-19 vaccine availability</h2>
 
-    <p>
-        <a href="/airtable.html" target="_blank">
-            View as airtable
-        </a>
-    </p>
 
-    <table class="table table-striped">
-    <thead>
-        <tr class="table-primary">
-            <th>State</th>
-            <th>Resource</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-     <tr><td>Alabama</td><td>&nbsp;</td></tr>
-     <tr><td>Alaska</td><td>&nbsp;</td></tr>
-     <tr><td>Arizona</td><td>&nbsp;</td></tr>
-     <tr><td>Arkansas</td><td>&nbsp;</td></tr>
-     <tr>
-        <td>California</td>
-        <td>
-            <a href="https://www.vaccinateca.com/" target="_blank">
-                vaccinateca.com
-            </a>
-        </td>
-        <td>
-            Crowdsourced site for vaccine availability
-        </td>
-    </tr>
-     <tr>
-        <td>Colorado</td>
-        <td>
-            <a target="_blank" href="https://covid19.colorado.gov/for-coloradans/vaccine/where-can-i-get-vaccinated">
-                covid19.colorado.gov
-            </a>
-        </td>
-        <td>
-            State website with vaccine info
-        </td>
-    </tr>
-     <tr><td>Connecticut</td><td>&nbsp;</td></tr>
-     <tr><td>Delaware</td><td>&nbsp;</td></tr>
-     <tr><td>Florida</td><td>&nbsp;</td></tr>
-     <tr><td>Georgia</td><td>&nbsp;</td></tr>
-     <tr><td>Hawaii</td><td>&nbsp;</td></tr>
-     <tr><td>Idaho</td><td>&nbsp;</td></tr>
-     <tr><td>Illinois</td><td>&nbsp;</td></tr>
-     <tr><td>Indiana</td><td>&nbsp;</td></tr>
-     <tr><td>Iowa</td><td>&nbsp;</td></tr>
-     <tr><td>Kansas</td><td>&nbsp;</td></tr>
-     <tr><td>Kentucky</td><td>&nbsp;</td></tr>
-     <tr>
-        <td>Louisiana</td>
-        <td>
-            <a target="_blank" href="https://ldh.la.gov/covidvaccine-locations/">
-                State Website
-            </a>
-        </td>
-        <td>
-            List of vaccination sites
-        </td>
-    </tr>
-     <tr><td>Maine</td><td>&nbsp;</td></tr>
-     <tr><td>Maryland</td><td>&nbsp;</td></tr>
-     <tr><td>Massachusetts</td><td>&nbsp;</td></tr>
-     <tr>
-        <td>Michigan</td>
-        <td>
-            <a target="_blank" href="https://www.covid19vaccinemi.com/">
-                covid19vaccinemi.com
-            </a>
-        </td>
-        <td>
-            Crowdsourced vaccine availability info
-        </td>
-    </tr>
-     <tr><td>Minnesota</td><td>&nbsp;</td></tr>
-     <tr><td>Mississippi</td><td>&nbsp;</td></tr>
-     <tr><td>Missouri</td><td>&nbsp;</td></tr>
-     <tr><td>Montana</td><td>&nbsp;</td></tr>
-     <tr><td>Nebraska</td><td>&nbsp;</td></tr>
-     <tr><td>Nevada</td><td>&nbsp;</td></tr>
-     <tr><td>New Hampshire</td><td>&nbsp;</td></tr>
-     <tr><td>New Jersey</td><td>&nbsp;</td></tr>
-     <tr><td>New Mexico</td><td>&nbsp;</td></tr>
-     <tr>
-        <td>New York</td>
-        <td>
-            <a target="_blank" href="https://vaccinefinder.nyc.gov/">
-                NYC Vaccine Finder
-            </a>
-        </td>
-        <td>
-            Vaccine location search
-        </td>
-    </tr>
-     <tr><td>North Carolina</td><td>&nbsp;</td></tr>
-     <tr><td>North Dakota</td><td>&nbsp;</td></tr>
-     <tr><td>Ohio</td><td>&nbsp;</td></tr>
-     <tr><td>Oklahoma</td><td>&nbsp;</td></tr>
-     <tr><td>Oregon</td><td>&nbsp;</td></tr>
-     <tr><td>Pennsylvania</td><td>&nbsp;</td></tr>
-     <tr><td>Rhode Island</td><td>&nbsp;</td></tr>
-     <tr><td>South Carolina</td><td>&nbsp;</td></tr>
-     <tr><td>South Dakota</td><td>&nbsp;</td></tr>
-     <tr><td>Tennessee</td><td>&nbsp;</td></tr>
-     <tr>
-        <td>Texas</td>
-        <td>
-            <a href="https://www.arcgis.com/apps/webappviewer/index.html?id=3700a84845c5470cb0dc3ddace5c376b" target="_blank">
-                Texas Vaccine map
-            </a>
-        </td>
-        <td>
-            Texas vaccine map
-        </td>
-    </tr>
-     <tr><td>Utah</td><td>&nbsp;</td></tr>
-     <tr><td>Vermont</td><td>&nbsp;</td></tr>
-     <tr><td>Virginia</td><td>&nbsp;</td></tr>
-     <tr><td>Washington</td><td>&nbsp;</td></tr>
-     <tr><td>West Virginia</td><td>&nbsp;</td></tr>
-     <tr><td>Wisconsin</td><td>&nbsp;</td></tr>
-     <tr><td>Wyoming</td><td></td></tr>
-    </tbody></table>
+    <iframe class="airtable-embed" src="https://airtable.com/embed/shrbcR34EZWrRsUGa?backgroundColor=blue&viewControls=on" frameborder="0" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 
 
@@ -174,8 +38,8 @@
     </a>
 
     <br><br>
-
 </div>
 
 </body>
-</html>
+
+<html>
